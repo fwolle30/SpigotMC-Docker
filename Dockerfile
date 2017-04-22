@@ -2,7 +2,7 @@ FROM debian:latest
 
 MAINTAINER Frank Wolbring <fwolbring@googlemail.com>
 
-EXPOSE 25565,8123
+EXPOSE 25565 8123
 
 WORKDIR /data
 VOLUME /data
