@@ -16,4 +16,3 @@ debconf-set-selections < settings.conf
 apt-get -y install oracle-java8-installer
 
 git config --global --unset core.autocrlf
-java -jar BuildTools.jar
